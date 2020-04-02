@@ -14,6 +14,8 @@
 		F7AF85052435A399005AC21B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7AF85042435A399005AC21B /* Preview Assets.xcassets */; };
 		F7AF85082435A399005AC21B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AF85062435A399005AC21B /* LaunchScreen.storyboard */; };
 		F7AF85132435A399005AC21B /* PhilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AF85122435A399005AC21B /* PhilTests.swift */; };
+		F7AF851E2435AB8C005AC21B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AF851D2435AB8C005AC21B /* ViewController.swift */; };
+		F7AF85202435ABE9005AC21B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AF851F2435ABE9005AC21B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		F7AF850E2435A399005AC21B /* PhilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AF85122435A399005AC21B /* PhilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilTests.swift; sourceTree = "<group>"; };
 		F7AF85142435A399005AC21B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7AF851D2435AB8C005AC21B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7AF851F2435ABE9005AC21B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 			children = (
 				F7AF84FB2435A397005AC21B /* AppDelegate.swift */,
 				F7AF84FD2435A397005AC21B /* SceneDelegate.swift */,
+				F7AF851D2435AB8C005AC21B /* ViewController.swift */,
+				F7AF851F2435ABE9005AC21B /* Main.storyboard */,
 				F7AF84FF2435A397005AC21B /* ContentView.swift */,
 				F7AF85012435A399005AC21B /* Assets.xcassets */,
 				F7AF85062435A399005AC21B /* LaunchScreen.storyboard */,
@@ -191,6 +197,7 @@
 				F7AF85082435A399005AC21B /* LaunchScreen.storyboard in Resources */,
 				F7AF85052435A399005AC21B /* Preview Assets.xcassets in Resources */,
 				F7AF85022435A399005AC21B /* Assets.xcassets in Resources */,
+				F7AF85202435ABE9005AC21B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +217,7 @@
 			files = (
 				F7AF84FC2435A397005AC21B /* AppDelegate.swift in Sources */,
 				F7AF84FE2435A397005AC21B /* SceneDelegate.swift in Sources */,
+				F7AF851E2435AB8C005AC21B /* ViewController.swift in Sources */,
 				F7AF85002435A397005AC21B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,7 +378,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Phil;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrkcohen.Phil;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -389,7 +397,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Phil;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrkcohen.Phil;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -409,7 +417,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.PhilTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrkcohen.PhilTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -430,7 +438,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.PhilTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrkcohen.PhilTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
